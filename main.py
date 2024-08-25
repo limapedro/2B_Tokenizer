@@ -34,7 +34,7 @@ class BytePairTokenizer:
 tokenizer = BytePairTokenizer()
 
 # Example input (binary data)
-input_data = "C++]"
+input_data = "2024"
 encoded_tokens = tokenizer.encode(input_data)
 print(f"Encoded Tokens: {encoded_tokens}")
 
