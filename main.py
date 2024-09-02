@@ -34,7 +34,7 @@ class BytePairTokenizer:
 tokenizer = BytePairTokenizer()
 
 # Example input (binary data)
-input_data = "I will meet you amanhã para um café!"
+input_data = "I will meet."
 encoded_tokens = tokenizer.encode(input_data)
 print(f"Encoded Tokens: {encoded_tokens}")
 
