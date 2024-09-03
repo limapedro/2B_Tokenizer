@@ -8,7 +8,7 @@ class BytePairTokenizer:
     def _generate_byte_pairs(self):
         # Generate all possible byte pairs
         byte_pairs = {}
-        token_id = 0
+        token_id   = 0
         for i in range(256):
             for j in range(256):
                 byte_pairs[(i, j)] = token_id
