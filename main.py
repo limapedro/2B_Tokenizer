@@ -34,7 +34,14 @@ class BytePairTokenizer:
 tokenizer = BytePairTokenizer()
 
 # Example input (binary data)
-input_data = "A quick brown fox jumped over the lazy dog."
+input_data = """
+On a bright and sunny 日 (rì), as the breeze gently whispered through the 桜の木 (sakura no ki) and 桃花 (táohuā) trees,
+ Maria and Hiroshi decided to enjoy a leisurely brunch at the café on the corner where they sipped their カプチーノ
+   (kapuchīno) and discussed the latest trends in 技术 (jìshù) and ファッション (fasshon), while admiring the beautiful
+     风景 (fēngjǐng) and 風光 (fēngguāng), dreaming of future adventures in distant ところ (tokoro) and 远方 (yuǎnfāng), 
+     knowing that life’s simple pleasures, like a freshly baked クロワッサン (kurowassan) or a warm bowl of 拉面 (lāmiàn), 
+     truly make the world a more 美しい (utsukushī) and 和谐 (héxié) place to live.
+"""
 encoded_tokens = tokenizer.encode(input_data)
 print(f"Encoded Tokens: {encoded_tokens}")
 
